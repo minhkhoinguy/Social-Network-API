@@ -6,19 +6,20 @@ const reactionSchema = new Schema(
           type: Schema.Types.ObjectId,
           default: new Types.ObjectId()
       },
+      reactionBody:{
+        type: String, 
+        require: true, 
+        maxlength: 280 
+      },
+      username: {
+        type: String, 
+        require: true 
+      },   
       createdAt: {
           type: Date,
           default: Date.now,
           get: date => {return (new Date).toUTCString()}
       },
-      username: {
-          type: String, 
-          require: true 
-      },
-      reactionBody:{
-        type: String, 
-        require: true, 
-        maxlength: 280 },
     },
 );
 
