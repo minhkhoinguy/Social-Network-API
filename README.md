@@ -51,13 +51,10 @@ The following image shows the web application's appearance:
 - [Node.js](https://nodejs.org/en/)
 - [Sequelize](https://sequelize.org/)
 - [MySQL2](https://www.npmjs.com/package/mysql2)
-- [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-- [Socket.io](https://momentjs.com/)
 - [Handlebars](https://handlebarsjs.com/)
-- [Auth Sess+ Cookies](https://stackoverflow.com/questions/17769011/how-does-cookie-based-authentication-work)
 - [Env Var](https://www.npmjs.com/package/env-var)
-- [Cloudinary](https://cloudinary.com/)
-- [Heroku](https://dashboard.heroku.com/)
+- [Insomnia](https://insomnia.rest/)
+- [Mongodb](https://www.mongodb.com/)
 
 ## License
 [MIT License](LICENSE)
