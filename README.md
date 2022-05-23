@@ -62,7 +62,7 @@ The following image shows the web application's appearance:
 ## Link
 [Github](https://github.com/minhkhoinguy/Social-Network-API)
 
-[Deploy](https://)
+[Deploy](https://drive.google.com/drive/folders/1qBI0iZQtojud64JIuXN8WZK3vrJGbFlO?usp=sharing)
 
 ## Contact
 Contact me with the link below if you have any questions!
