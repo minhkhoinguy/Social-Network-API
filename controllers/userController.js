@@ -25,7 +25,7 @@ module.exports = {
         .catch((err) => res.status(500).json(err));
     },
   // Update a user
-    updateUser(req, res) {
+    updateUsers(req, res) {
       User.findOneAndUpdate(
         { _id: req.params.userId },
         { $set: req.body },
@@ -41,6 +41,16 @@ module.exports = {
           res.status(500).json(err);
         });
     },
+// Delete a user
+  deleteUsers(req, res){
+  User.findOneAndRemove({ _id: req.params.userId})
+  .then((user)=>
+  !user
+  ? res.status(404).json({message: "No user with this id!"})
+  : res.json(user)
+  )
+  .catch ((err)=> res.status(500).json(err));
+},
   // Add a Friends
     addFriends(req, res) {
       User.findOneAndUpdate(
