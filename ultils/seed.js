@@ -18,8 +18,8 @@ connection.once('open', async () => {
     const username = getRandomName();
 
     users.push({
-      first,
-      last,
+      username: getRandomName(),
+      email:getRandomName()
     });
   }
 
