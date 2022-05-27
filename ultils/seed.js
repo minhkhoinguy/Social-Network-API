@@ -19,7 +19,7 @@ connection.once('open', async () => {
 
     users.push({
       username: getRandomName(),
-      email:getRandomName()
+      email:getRandomName(),
     });
   }
 

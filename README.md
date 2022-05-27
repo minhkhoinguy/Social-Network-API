@@ -41,18 +41,14 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ## Mock-Up
 The following image shows the web application's appearance:
 
-<img src="./Assets/testingImage.gif">
+<img src="./Assets/SocialNetworkAPI.gif">
 
 ## Tech
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/javascript)
 - [Express.js](https://expressjs.com/)
 - [Node.js](https://nodejs.org/en/)
 - [Sequelize](https://sequelize.org/)
 - [MySQL2](https://www.npmjs.com/package/mysql2)
-- [Handlebars](https://handlebarsjs.com/)
-- [Env Var](https://www.npmjs.com/package/env-var)
 - [Insomnia](https://insomnia.rest/)
 - [Mongodb](https://www.mongodb.com/)
 
